@@ -1,3 +1,5 @@
-:host {
-  display: block;
+.carousel-inner img {
+  height: 100px;
+
+  object-fit: cover;
 }

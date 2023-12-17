@@ -1,16 +1,14 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-tienda',
+  selector: 'app-registro',
   standalone: true,
   imports: [
     CommonModule,
-    RouterLink
   ],
-  templateUrl: './tienda.component.html',
-  styleUrl: './tienda.component.css',
+  templateUrl: './registro.component.html',
+  styleUrl: './registro.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class TiendaComponent { }
+export class RegistroComponent { }
