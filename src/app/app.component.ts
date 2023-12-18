@@ -10,12 +10,13 @@ import { HombreComponent } from './pages/hombre/hombre.component';
 import { PequesComponent } from './pages/peques/peques.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, PrincipalComponent, MenuComponent, FooterComponent, TiendaComponent, MujerComponent, HombreComponent, PequesComponent, RegistroComponent, BlogComponent],
+  imports: [CommonModule, RouterOutlet, PrincipalComponent, MenuComponent, FooterComponent, TiendaComponent, MujerComponent, HombreComponent, PequesComponent, RegistroComponent, BlogComponent, ContactoComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

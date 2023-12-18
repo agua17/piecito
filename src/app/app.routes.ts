@@ -7,6 +7,7 @@ import { HombreComponent } from './pages/hombre/hombre.component';
 import { PequesComponent } from './pages/peques/peques.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 export const routes: Routes = [
     {
@@ -36,6 +37,11 @@ export const routes: Routes = [
     {
         path: 'blog',
         component: BlogComponent,
+    },
+
+    {
+        path: 'contacto',
+        component: ContactoComponent,
     },
 
     {

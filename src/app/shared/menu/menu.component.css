@@ -1,11 +1,23 @@
 .nav-right-icons i {
-  font-size: 30px;
-  color: rgb(226, 159, 43);
+  font-size: 28px;
+  color: rgb(172, 27, 135);
   margin-right: 40px;
+  text-shadow: 6px 6px 4px rgba(162, 9, 250, 0.947);
 }
 
 .navbar-nav a {
-  font-size: 26px;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(64, 6, 117);
+  text-shadow: 2px 2px 4px rgb(172, 27, 136);
+  font-weight: bold;
+}
 
 
+
+.navbar-header span {
+  font-family: 'fantasy', 'cursive', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+  font-size: 42px;
+  color: rgb(172, 27, 135);
+  text-shadow: 6px 6px 4px rgba(162, 9, 250, 0.947);
 }

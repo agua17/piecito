@@ -3,3 +3,15 @@
 
   object-fit: cover;
 }
+
+.card-body {
+  background-color: #e2beff;
+}
+
+.card {
+  border: 4px solid rgb(104, 4, 124);
+}
+
+iframe {
+  border: 3px solid purple;
+}
